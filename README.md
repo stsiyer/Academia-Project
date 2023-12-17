@@ -1,4 +1,4 @@
-# Academic ERP System
+# Academic ERP System - 8.7 Implementation
 
 ## Introduction
 This Academic ERP system is designed to manage various aspects of a university's academic and administrative processes. The system includes modules for student management, course management, faculty management, human resources, accounts, hostel management, and alumni & placement.
