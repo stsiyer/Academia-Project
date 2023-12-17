@@ -1,0 +1,96 @@
+/* src/StudentList.css */
+
+/* Container styles */
+.student-list-container body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+.student-list-container {
+    margin: 20px;
+    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  /* Heading styles */
+  .student-list-container h2 {
+    color: #333;
+  }
+  
+  /* Form styles */
+  .student-list-container div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+  }
+  
+  .student-list-container div > label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 15px;
+  }
+  
+  .student-list-container div > label > select {
+    margin-left: 8px;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .student-list-container div > button {
+    padding: 8px;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Table styles */
+  .student-list-container table {
+    min-width: 50vw;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .student-list-container th, .student-list-container td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .student-list-container th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Alternate row background color for better readability */
+  .student-list-container tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+
+
+  .table_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .head-4
+  {
+    margin: 0%;
+    font-size: medium;
+  }
