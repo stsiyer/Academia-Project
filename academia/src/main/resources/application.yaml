@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/academia
+    username: root
+    password: iyer
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
